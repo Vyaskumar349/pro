@@ -3,6 +3,149 @@
     <head>
         <title>Google</title>
 <link rel="stylesheet" href="googlestyle.css">
+<style>
+    body{
+margin: 0;
+display: flex;
+flex-direction: column;
+height: 100%;
+
+}
+html{
+    height:100%;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#nav a{
+    margin-right: 20px;
+}
+#nav a.topimage{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    
+}
+#gmailogo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.searchbarimages{
+width: 20px;
+height: 20px;
+border-radius:50% ;
+}
+#voice{
+cursor: pointer;
+}
+
+#middle{
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#logo img{
+margin-bottom: 10px;
+height: 110px;
+cursor: pointer;
+
+}
+#searchBarContainer{
+    text-align: center;
+    position: relative;
+}
+#searchbar:hover{
+    box-shadow: 0px 0px 10px 2px #cfc6c6;
+    
+}
+
+#searchbar{
+    padding-top:10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    border-radius:20px;
+    border: 1px solid #cfc6c6;
+    font-size: medium;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttons{
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 8px 10px;
+    background-color:rgb(231, 231, 231);
+    border-radius: 5px;
+    outline: 1px;
+    cursor:pointer;
+    border: 1px solid transparent;
+}
+.buttons:hover{
+box-shadow: 0 0 10px 2px #858383;
+border: 1px solid #cfc6c6;
+}
+#links{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.languages{
+    margin-left: 10px;
+}
+#footer-content1{
+    width: 100%;
+    height: 20px;
+    background-color:rgb(231, 231, 231);
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#search , #voice{
+position: absolute;
+top: 0;
+display: flex;
+height: 100%;
+justify-content: center;
+align-items: center;
+}
+
+#search{
+    left: 15px;
+}
+#voice{
+    right: 15px;
+}
+#footer{
+    display: flex;
+}
+#footer-content2{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(231, 231, 231);
+}
+.footerlinks{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+</style>
     </head>
     <body>
         <div id="nav">
